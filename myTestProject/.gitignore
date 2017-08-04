@@ -1,0 +1,20 @@
+# framework specific git ignore
+/reports/
+!*.gitkeep
+
+# build specific git ignore
+/target/
+/bin/
+/test-output/
+
+# eclipse specific git ignore
+.settings/
+.metadata
+.classpath
+.project
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Other files
+*.bat
