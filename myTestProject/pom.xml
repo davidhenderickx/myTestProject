@@ -18,6 +18,9 @@
 			<groupId>com.mysefrmwrk.sefrmwrk</groupId>
 			<artifactId>sefrmwrk</artifactId>
 			<version>0.0.1</version>
+
+    <scope>system</scope>
+    <systemPath>C:\Maven\sefrmwrk-0.0.1.jar</systemPath>
 		</dependency>
 
 		<!-- Cucumber Plugin -->
@@ -37,6 +40,84 @@
 			<version>1.1.5</version>
 		</dependency>
 
+
+<dependency><!-- Selenium: Automation framework -->
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency><!-- TestNG: Test framework -->
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8</version>
+		</dependency>
+		<dependency><!-- Log4J: Log framework -->
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency><!-- Apache POI: Working with .xls Excel files -->
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency><!-- Apache POI: Working with .xlsx Excel files -->
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency><!-- Javax Mail: Sending mails -->
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.5.0-b01</version>
+		</dependency>
+		<dependency><!-- To read pdf's -->
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+		<dependency><!-- Saucerest: Connecting to Saucelabs cloud services -->
+			<groupId>com.saucelabs</groupId>
+			<artifactId>saucerest</artifactId>
+			<version>1.0.17</version>
+		</dependency>
+		<dependency>
+			<groupId>com.saucelabs</groupId>
+			<artifactId>sauce_junit</artifactId>
+			<version>LATEST</version>
+		</dependency>
+		<!-- Appium Mobile Testing -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- HTML Unit Driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+
+		<!-- Google GSON -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+		<!--Data and time library to replace JDK date handling -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.7</version>
+		</dependency>
 
 	</dependencies>
 	<build>
