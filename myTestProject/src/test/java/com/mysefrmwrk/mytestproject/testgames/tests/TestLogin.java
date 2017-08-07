@@ -17,7 +17,7 @@ import com.mysefrmwrk.sefrmwrk.reports.Reporter;
 
 public class TestLogin extends TestBase {
 
-	private static String ERROR_INVALID_LOGIN = "Unable to log in with the given crzedentials. Please try again.";
+	private static String ERROR_INVALID_LOGIN = "Unable to log in with the given credentials. Please try again.";
 	private static String ERROR_EMPTY = "Please fill in all the fields.";
 	private static String HEADER_WELCOMEPAGE = "Welcome";
 	
